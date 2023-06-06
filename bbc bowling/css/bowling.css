@@ -1,0 +1,56 @@
+.bowling-priser-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bowling-priser-1 {
+  grid-row: 1/1;
+  grid-column: 1/2; 
+  width: 60%;
+}
+
+.bowling-priser-2 {
+  grid-row: 1/1;
+  grid-column: 2/2;
+  width: 60%;
+}
+
+.børnefødselsdag, .drinkspakker, .VIP-pakker {
+  width: 50%;
+}
+
+@media screen and (max-width: 1350px) {
+  .bowling-priser-grid-container {
+    display: flex;
+    flex-direction: column;
+    }
+
+  .bowling-priser-1, .bowling-priser-2, .børnefødselsdag, .drinkspakker, .VIP-pakker {
+    width: 80%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

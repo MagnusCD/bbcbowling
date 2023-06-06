@@ -1,0 +1,43 @@
+.arrangmenter-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.buttons  {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #597CAF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
